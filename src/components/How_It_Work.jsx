@@ -123,7 +123,7 @@ export default function How_It_Work() {
                 Ensure consistent formatting with clear headers and bullet
                 points. Keep content concise, focus on achievements, and use
                 relevant keywords. Proofread for errors and use action verbs.
-                Aim for a professional and polished look that's easy to read.
+                Aim for a professional and polished look that&apos;s easy to read.
               </p>
             </div>
           </div>
