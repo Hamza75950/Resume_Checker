@@ -14,8 +14,8 @@ export default function Nav2() {
   const getLinkClasses = (route) => {};
 
   return (
-    <nav className={`poppin shadow-lg mx-auto my-4  dark:bg-background `}>
-      <div className="container mx-auto flex justify-between items-center px-4">
+    <nav className={`poppin shadow-lg my-4  dark:bg-background `}>
+      <div className=" mx-auto flex justify-between items-center md:p-6 px-4">
         {/* LOGO */}
         <div className=" lg:hidden text-[#3BAEEB] lg:text-2xl text-base font-bold">
           Resume Checker
@@ -27,13 +27,13 @@ export default function Nav2() {
           Resume Checker
         </div>
 
-        <div className=" hidden  lg:flex md:justify-center gap-4 text-base font-normal list-none lg:items-center dark:text-white text-[#181818] ">
+        <div className=" hidden lg:flex md:justify-center gap-4 lg:gap-8 text-base font-normal list-none lg:items-center dark:text-white text-[#181818] ">
           <Link href={"/"}>Home</Link>
           <Link href={"#HowItWorks"}>How It Works</Link>
           <Link href={"GetYourCandidate"}>Features</Link>
           <Link href={"#FAQS"}>FAQs</Link>
         </div>
-        <div className="hidden lg:flex  gap-2 items-end mb-2 ">
+        <div className="hidden lg:flex lg:gap-6 gap-2 items-end mb-2 ">
           <ModeToggle />
           <Link
             href={"/"}

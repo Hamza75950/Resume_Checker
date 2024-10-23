@@ -38,11 +38,11 @@ import Get_Started_Button from "./Get_Started_Button";
 
 export default function Get_Your_Candidate() {
   return (
-    <div className="md:max-w-5xl mx-auto md:p-10 p-2 ">
+    <div className="md:max-w-full mx-auto md:p-10 p-2 ">
       <div className="dark:bg-custom-gradient-dark bg-custom-gradient2 md:p-20 p-5">
-        <div className="text-center md:max-w-md lg:max-w-lg max-w-sm mx-auto">
+        <div className="text-center md:max-w-md lg:max-w-full max-w-sm mx-auto">
           <div className="relative inline-block redHat ">
-            <h2 className="redHat  lg:text-4xl md:text-2xl text-lg font-bold ">
+            <h2 className="redHat xl:text-6xl lg:text-4xl md:text-2xl text-lg font-bold ">
               Get Your Candidates &nbsp;
               <span className="bg-clip-text text-transparent bg-custom-gradient">
                 Sorted
@@ -51,7 +51,7 @@ export default function Get_Your_Candidate() {
             <span class="absolute inset-x-10 bottom-0 h-px bg-custom-gradient"></span>
           </div>
           <div className="poppin items-center flex flex-col">
-            <p className="max-w-xs mx-auto md:p-6 p-2 md:max-w-md md:text-lg text-[12px] ">
+            <p className="max-w-xs mx-auto md:p-6 p-2 xl:text-2xl md:max-w-full md:text-lg text-[12px] ">
               Upload your resumes and recive a personal email with an actionable
               task list.{" "}
             </p>

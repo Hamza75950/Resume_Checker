@@ -7,7 +7,7 @@ export default function Collapsible({ title, children }) {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <div className={`w-full max-w-2xl mx-auto p-1 rounded-md ${isOpen ? 'bg-custom-gradient2' : ''}`}>
+    <div className={`w-full max-w-full mx-auto p-1 rounded-md ${isOpen ? 'bg-custom-gradient2' : ''}`}>
       <div className="bg-background rounded-lg shadow-sm overflow-hidden border-2 border-transparent">
         <button
           className="w-full md:px-6 md:py-4 px-4 py-2 flex items-center justify-between md:text-left"

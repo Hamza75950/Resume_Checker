@@ -12,7 +12,9 @@ export default function Home() {
       {/* Nav component */}
       <Nav />
       {/* Hero component */}
+      {/* button fix left */}
       <Hero />
+
       {/* How_It_Work component */}
       <section id="HowItWorks">
         <How_It_Work />
