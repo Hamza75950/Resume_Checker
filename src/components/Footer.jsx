@@ -77,7 +77,7 @@ export default function Footer() {
               </Link>
               <Link href={"/"}>
                 <Image
-                  src={"/Linkedin.png"}
+                  src={"/linkedin.png"}
                   width={25}
                   height={25}
                   alt="LinkedIn"
@@ -86,7 +86,7 @@ export default function Footer() {
               <Link href={"/"}>
                 <Image
                 
-                  src={"/Facebook.png"}
+                  src={"/facebook.png"}
                   width={8}
                   height={8}
                   alt="Facebook"

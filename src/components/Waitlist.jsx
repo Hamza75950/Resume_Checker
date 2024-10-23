@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 import Heading_Underline from "./Heading_Underline";
 import Get_Started_Button from "./Get_Started_Button";
 export default function Waitlist() {
